@@ -1,0 +1,52 @@
+/*===NULL CSS===========================================*/
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.page,
+.page__body {
+    width: 100%;
+    height: 100%;
+}
+
+.page__body {
+    margin: 0;
+    font-family: "dm-serif-display";
+    font-size: 16px;
+}
+
+/*===/NULL CSS===========================================*/
+
+::selection {
+    color: #CDA27f;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button-reset {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.link-reset {
+    text-decoration: none;
+}
+
+.input-reset {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

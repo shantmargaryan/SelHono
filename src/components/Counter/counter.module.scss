@@ -1,0 +1,25 @@
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    @media(min-width:992px){
+        &:not(:last-child) {
+            padding-inline-end: 70px;
+            border-right: 1px solid #CDA274;
+        }
+    }
+}
+
+.counter {
+    color: #CDA274;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.text {
+    color: #4D5053;
+    font-size: 18px;
+    font-weight: 400;
+}

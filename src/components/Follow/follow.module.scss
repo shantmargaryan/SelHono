@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-end: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-block-end: 10px;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.articleBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-block-end: 10%;
+
+    @media(min-width:768px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.counterBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}

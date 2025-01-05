@@ -1,0 +1,49 @@
+.servicesModern {}
+
+.container {}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-end: 50px;
+    text-align: center;
+}
+
+.title {
+    max-width: 600px;
+    margin-block-end: 50px;
+}
+
+.text {
+    color: #CDA274;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-block-end: 100px;
+
+    @media(min-width:576px){
+        flex-direction: row;
+    }
+
+}
+
+.largText {
+    max-width: 550px;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    border-radius: 60px;
+}

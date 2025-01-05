@@ -1,0 +1,47 @@
+.container {}
+
+.swiper {}
+
+.title {
+    margin-block-end: 50px;
+    text-align: center;
+}
+
+.img {
+    aspect-ratio: 1 / 1;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.text {
+    max-width: 500px;
+    margin-block-end: 35px;
+    text-align: center;
+    font-family: "DMSerifText";
+    font-size: clamp(25px, 5vw, 36px);
+    color: #292F36;
+}
+
+.name {
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.swiper {
+    margin-block-end: 10%;
+}
+
+.buttonNext:after,
+.buttonPrev:after {
+    color: #fff;
+}

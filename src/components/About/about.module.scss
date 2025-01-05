@@ -1,0 +1,33 @@
+.about {}
+
+.container {
+    margin-block-end: 8%;
+    padding: 50px 20px;
+    background-color: #D8A876;
+    border-radius: 30px;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.title {
+    max-width: 530px;
+    text-align: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+    @media(min-width:768px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media(min-width:992px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,44 @@
+.projectInfo {}
+
+.container {}
+
+.wrapper {
+}
+
+.content {
+    margin-block-end: 50px;
+}
+
+.title {
+    margin-block-end: 10px;
+}
+
+.bg {
+    display: grid;
+    place-items: center;
+    min-height: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.iconButton {
+    display: grid;
+    place-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 132px;
+    background-color: #fff;
+    transition: scale 0.3s;
+
+    &:active {
+        scale: 0.9;
+    }
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    fill: #CDA274;
+}

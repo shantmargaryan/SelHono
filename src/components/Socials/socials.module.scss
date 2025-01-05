@@ -1,0 +1,23 @@
+.socials {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+
+    & a {
+        width: 35px;
+        height: 35px;
+    }
+
+    & a:nth-child(1) {
+        color: #0865de;
+    }
+
+    & a:nth-child(2) {
+        color: #fd591d
+    }
+
+    & svg {
+        width: 35px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,665 @@
+{
+    "header": {
+        "phoneNumber": "123-456-7890",
+        "facebook": "www.facebook.com",
+        "instagram": "https://www.instagram.com/"
+    },
+    "specialHero": {
+        "title": "Let's make your home beautiful together",
+        "text": "There are many variations of the passages of lorem Ipsum fromavailable, majority.",
+        "background": "img/homeHero.jpg"
+    },
+    "specialHeroItem": [
+        {
+            "id": "1",
+            "title": "Project Plan",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": "2",
+            "title": "Interior Work",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": "3",
+            "title": "Realization",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": "4",
+            "title": "2d/3d Art Work",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": "5",
+            "title": "Interior Work",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        },
+        {
+            "id": "6",
+            "title": "Decoration Work",
+            "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+        }
+    ],
+    "createData": {
+        "title": "We create art for modern life",
+        "text": "There are many variations of the passages of lorem Ipsum from available, majority.",
+        "phoneNumber": "123-456-7890",
+        "background": "img/modernIImg1.jpg",
+        "background2": "img/modernImg2.jpg"
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "text": "I like an interior that defies labeling. I don't really want someone to walk into a room and know that I did it",
+        "name": "BUNNY WILLIAMS",
+        "imgUrl": [
+            {
+                "id": "1",
+                "imgUrl": "img/AboutImg1.jpg"
+            },
+            {
+                "id": "2",
+                "imgUrl": "img/AboutImg2.jpg"
+            },
+            {
+                "id": "3",
+                "imgUrl": "img/AboutImg3.jpg"
+            },
+            {
+                "id": "4",
+                "imgUrl": "img/AboutImg4.jpg"
+            },
+            {
+                "id": "5",
+                "imgUrl": "img/AboutImg5.jpg"
+            },
+            {
+                "id": "6",
+                "imgUrl": "img/AboutImg6.jpg"
+            },
+            {
+                "id": "7",
+                "imgUrl": "img/AboutImg7.jpg"
+            }
+        ]
+    },
+    "about": {
+        "title": "What the People Thinks About Us",
+        "aboutItem": [
+            {
+                "id": "1",
+                "imgUrl": "img/NatashaIcon.png",
+                "name": "Natasha",
+                "country": "Moscow, Russia",
+                "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+            },
+            {
+                "id": "2",
+                "imgUrl": "img/RaymondGalarioIcon.png",
+                "name": "Raymond Galario",
+                "country": "UK, London",
+                "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+            },
+            {
+                "id": "3",
+                "imgUrl": "img/BennyRollIcon.png",
+                "name": "Benny Roll",
+                "country": "USA, New York",
+                "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+            }
+        ]
+    },
+    "companyImg": [
+        {
+            "id": "1",
+            "svgUrl": "img/svg/sprite.svg#buffer"
+        },
+        {
+            "id": "2",
+            "svgUrl": "img/svg/sprite.svg#bigCommerce"
+        },
+        {
+            "id": "3",
+            "svgUrl": "img/svg/sprite.svg#uon"
+        },
+        {
+            "id": "4",
+            "svgUrl": "img/svg/sprite.svg#Frame"
+        }
+    ],
+    "follow": {
+        "title": "Follow Our Projects",
+        "text": "It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.",
+        "followItems": [
+            {
+                "id": "1",
+                "imgUrl": "img/ProjectsImg1.jpg",
+                "title": "Modern bedroom",
+                "subtitle": "Decor / Artchitecture"
+            },
+            {
+                "id": "2",
+                "imgUrl": "img/ProjectsImg2.jpg",
+                "title": "Modern bedroom",
+                "subtitle": "Decor / Artchitecture"
+            },
+            {
+                "id": "3",
+                "imgUrl": "img/ProjectsImg3.jpg",
+                "title": "Modern bedroom",
+                "subtitle": "Decor / Artchitecture"
+            },
+            {
+                "id": "4",
+                "imgUrl": "img/ProjectsImg4.jpg",
+                "title": "Modern bedroom",
+                "subtitle": "Decor / Artchitecture"
+            }
+        ]
+    },
+    "news": {
+        "title": "Articles & News",
+        "text": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.",
+        "newsItem": [
+            {
+                "id": "1",
+                "imgUrl": "img/ArticlesImg1.jpg",
+                "subtitle": "Kitchan Design",
+                "title": "Let’s Get Solution For Building Construction Work",
+                "date": "26 December,2022"
+            },
+            {
+                "id": "2",
+                "imgUrl": "img/ArticlesImg2.jpg",
+                "subtitle": "Living Design",
+                "title": "Low Cost Latest Invented Interior Designing Ideas.",
+                "date": "22 December,2022 "
+            },
+            {
+                "id": "3",
+                "imgUrl": "img/ArticlesImg3.jpg",
+                "subtitle": "Interior Design",
+                "title": "Best For Any Office & Business Interior Solution",
+                "date": "4 December,2022 "
+            }
+        ]
+    },
+    "join": {
+        "background": "img/joinBg.jpg",
+        "title": "Wanna join the interno?",
+        "text": "It is a long established fact  will be distracted."
+    },
+    "hero": {
+        "services": "img/servicesBg.jpg",
+        "servicesTitle": "Services",
+        "about": "img/aboutBg.jpg",
+        "aboutTitle": "About"
+    },
+    "aboutText": {
+        "text": "I like an interior that defies labeling. I don't really want someone to walk into a room and know that I did it",
+        "name": "BUNNY WILLIAMS"
+    },
+    "aboutUsItems": [
+        {
+            "id": "1",
+            "title": "What We Do",
+            "text": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+            "imgUrl": "img/workImg1.jpg"
+        },
+        {
+            "id": "2",
+            "title": "The End Result",
+            "text": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+            "imgUrl": "img/workImg2.jpg"
+        }
+    ],
+    "services": {
+        "background": "img/servicesBg.jpg",
+        "title": "Services"
+    },
+    "singleServices": {
+        "background": "img/singleServicesBg.jpg",
+        "title": "Single Services"
+    },
+    "servicesWork": {
+        "title": "How We Work",
+        "text": "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "servicesItem": [
+            {
+                "id": "1",
+                "imgUrl": "img/ConceptDetails.jpg",
+                "smallTitle": "Concept & Details",
+                "smallText": "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy from text of theand typesetting indufstry. "
+            },
+            {
+                "id": "2",
+                "imgUrl": "img/IdeaWork.jpg",
+                "smallTitle": "Idea for Work",
+                "smallText": "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy from text of theand typesetting indufstry. "
+            },
+            {
+                "id": "3",
+                "imgUrl": "img/Design.jpg",
+                "smallTitle": "Design",
+                "smallText": "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy from text of theand typesetting indufstry. "
+            },
+            {
+                "id": "4",
+                "imgUrl": "img/Perfection.jpg",
+                "smallTitle": "Perfection",
+                "smallText": "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy from text of theand typesetting indufstry. "
+            }
+        ]
+    },
+    "projectDetails": {
+        "title": "Project Details",
+        "background": "/img/ProjectDetailsBg.jpg"
+    },
+    "blog": {
+        "background": "img/Articles&NewsBg.jpg",
+        "title": "Articles& News"
+    },
+    "servicesModern": {
+        "title": "We set the trends of modern living services.",
+        "text": "It is a long established fact that a reader will be distracted by the of readable content of a page",
+        "texts": [
+            {
+                "id": "1",
+                "text": "when lookings at its layouts the points spriof using that it has a more less normal.A wonderful serenity has taken pgossession of my entire soul, like thesce sweet morndsings of sphring which I enjoy with my forwhole heart. I am alone, and feel the charm of excgistence in this spot, which was created for the bliss of souls like mine."
+            },
+            {
+                "id": "2",
+                "text": "when lookings at its layouts the points spriof using that it has a more less normal.A wonderful serenity has taken pgossession of my entire soul, like thesce sweet morndsings of sphring which I enjoy with my forwhole heart. I am alone, and feel the charm of excgistence in this spot, which was created for the bliss of souls like mine."
+            }
+        ],
+        "background": "img/MakeImg.jpg"
+    },
+    "servicesInterior": [
+        {
+            "id": "1",
+            "title": "Use of Interior",
+            "texts": [
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services."
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Make An Art",
+            "texts": [
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services.",
+                "We provide high quality design services."
+            ]
+        }
+    ],
+    "servicesDesign": {
+        "imgUrl": "img/AboutImg4.jpg",
+        "title": "We love design.That's how we got here.",
+        "text": "It is a long established fact that a reader will be distracted by the of readable content ."
+    },
+    "pricing": {
+        "background": "img/pricingBg.jpg",
+        "title": "Pricing& Plan"
+    },
+    "pricingItem": [
+        {
+            "id": "1",
+            "title": "Design advices",
+            "price": "29",
+            "texts": [
+                "General living space advices",
+                "Rennovation advices",
+                "Interior design advices",
+                "Furniture reorganization",
+                "Up to 5 hours meetings"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Complete interior",
+            "price": "39",
+            "texts": [
+                "Complete home redesign",
+                "Interior and exterior works",
+                "Modular interior planning",
+                "Kitchen design",
+                "Garages organization"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Furniture design",
+            "price": "59",
+            "texts": [
+                "Furniture for living room",
+                "Furniture refurbishment",
+                "Sofas and amchairs",
+                "Tables and chairs",
+                "Kitchens"
+            ]
+        }
+    ],
+    "project": {
+        "background": "/img/pricingBg.jpg",
+        "title": "Our Project",
+        "bedRoom": [
+            {
+                "id": "1",
+                "imgUrl": "/img/galleryImg1.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "2",
+                "imgUrl": "/img/galleryImg2.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "3",
+                "imgUrl": "/img/ProjectsImg1.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "4",
+                "imgUrl": "/img/galleryImg3.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "5",
+                "imgUrl": "/img/galleryImg4.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "6",
+                "imgUrl": "/img/galleryImg5.jpg",
+                "title": "Minimal Bedroom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            }
+        ],
+        "bathRoom": [
+            {
+                "id": "1",
+                "imgUrl": "/img/PostImg.jpg",
+                "title": "Minimal BathRoom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "2",
+                "imgUrl": "/img/NewsImg1.jpg",
+                "title": "Minimal BathRoom",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            }
+        ],
+        "kitchan": [
+            {
+                "id": "1",
+                "imgUrl": "/img/ArticlesImg1.jpg",
+                "title": "Minimal Kitchan",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "2",
+                "imgUrl": "/img/ArticlesImg2.jpg",
+                "title": "Minimal Kitchan",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "3",
+                "imgUrl": "/img/ArticlesImg3.jpg",
+                "title": "Minimal Kitchan",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "4",
+                "imgUrl": "/img/BuildingImg.jpg",
+                "title": "Minimal Kitchan",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "5",
+                "imgUrl": "/img/greatImg.jpg",
+                "title": "Minimal Kitchan",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            }
+        ],
+        "livingArea": [
+            {
+                "id": "1",
+                "imgUrl": "/img/NewsImg2.jpg",
+                "title": "Minimal Living Area",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "2",
+                "imgUrl": "/img/workImg1.jpg",
+                "title": "Minimal Living Area",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            },
+            {
+                "id": "3",
+                "imgUrl": "/img/relatedImg.jpg",
+                "title": "Minimal Living Area",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. "
+            }
+        ]
+    },
+    "projectInfo": {
+        "title": "Minimal Look Bedrooms",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque arcu. Donec a pellentesque Cras erat enim, gravida non ante vitae,elequis convallis elit, in viverra felis. Donec ultrices tellus vitae iaculisvd porta. Proin tincidunt ligula id purus porttitor.",
+        "background": "/img/BedroomsImg.jpg"
+    },
+    "blogPost": {
+        "title": "Latest Post",
+        "imgUrl": "/img/PostImg.jpg",
+        "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+        "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.Lorem Ipsum is not simply random text. It has roots in a piece of classica.",
+        "date": "22 December,2022"
+    },
+    "blogItems": [
+        {
+            "id": "1",
+            "imgUrl": "/img/ArticlesImg1.jpg",
+            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+            "date": "22 December,2022"
+        },
+        {
+            "id": "2",
+            "imgUrl": "/img/ArticlesImg2.jpg",
+            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+            "date": "22 December,2022"
+        },
+        {
+            "id": "3",
+            "imgUrl": "/img/ArticlesImg3.jpg",
+            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+            "date": "22 December,2022"
+        }
+    ],
+    "blogDetails": {
+        "background": "/img/BlogDetailsBg.jpg",
+        "title": "Blog Details"
+    },
+    "blogDetailsPosts": {
+        "title": "Latest News",
+        "blogDetailInfo": [
+            {
+                "id": "1",
+                "title": "We Focus On Comfort And Gorgeous",
+                "date": "06/02/2023"
+            },
+            {
+                "id": "2",
+                "title": "We Focus On Comfort And Gorgeous",
+                "date": "06/02/2023"
+            },
+            {
+                "id": "3",
+                "title": "We Focus On Comfort And Gorgeous",
+                "date": "06/02/2023"
+            }
+        ],
+        "blogDetailCatalog": {
+            "title": "Categories",
+            "posts": [
+                {
+                    "id": "1",
+                    "text": "Decoration"
+                },
+                {
+                    "id": "2",
+                    "text": "Door Windows"
+                },
+                {
+                    "id": "3",
+                    "text": "Home Land"
+                },
+                {
+                    "id": "4",
+                    "text": "Roof Installation"
+                }
+            ]
+        },
+        "blogDetailTags": {
+            "title": "Tags",
+            "posts": [
+                {
+                    "id": "1",
+                    "text": "Kitchen"
+                },
+                {
+                    "id": "2",
+                    "text": "Bedroom"
+                },
+                {
+                    "id": "3",
+                    "text": "Building"
+                },
+                {
+                    "id": "4",
+                    "text": "Architecture"
+                },
+                {
+                    "id": "5",
+                    "text": "Kitchen Planning"
+                },
+                {
+                    "id": "6",
+                    "text": "Bedroom"
+                }
+            ]
+        }
+    },
+    "blogDetailDesign": {
+        "title": "Design sprints are great",
+        "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+        "imgUrl": "/img/greatImg.jpg",
+        "texts": [
+            "Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+        ]
+    },
+    "contactLinks": {
+        "email": "info@selhono.com",
+        "phoneNumber": "+1(378)400-1234",
+        "imgUrl": "img/AlexJohnson.jpg"
+    },
+    "contact": {
+        "background": "img/contactBg.jpg"
+    },
+    "FAQ": {
+        "FAQHero": {
+            "title": "FAQ",
+            "background": "img/faqBg.jpg"
+        },
+        "questionAnswered": {
+            "title": "Every Question Answered",
+            "posts": [
+                {
+                    "id": "1",
+                    "title": "What is the Hipcouch Interior Design Service?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "2",
+                    "title": "So, how exactly does this work?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "3",
+                    "title": "What cities do you currently operate in?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "4",
+                    "title": "Hipcouch Interior Design Service?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "5",
+                    "title": "What kind of interior designers do you have?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                }
+            ]
+        },
+        "imgUrl": "img/questionImg.jpg",
+        "projectRelated": {
+            "title": "Project related questions",
+            "imgUrl": "img/relatedImg.jpg",
+            "posts": [
+                {
+                    "id": "1",
+                    "title": "How long does it take?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "2",
+                    "title": "Can I use my existing furnishings?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "3",
+                    "title": "I put into redesigning my interior?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "4",
+                    "title": "What do your services cost?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                },
+                {
+                    "id": "5",
+                    "title": "Do you offer free consultations?",
+                    "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu semvitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised."
+                }
+            ]
+        }
+    },
+    "footer": {
+        "text": "It is a long established fact that a reader will be distracted lookings.",
+        "address": "55 East Birchwood Ave. Brooklyn, New York 11201",
+        "mail": "contact@selhono.com",
+        "phoneNumber": "123-456-7890"
+    }
+}

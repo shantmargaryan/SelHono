@@ -1,0 +1,93 @@
+.create {}
+
+.container {}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @media(min-width:768px) {
+        flex-direction: row;
+    }
+}
+
+.item {
+    min-height: 700px;
+    flex-basis: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 30px;
+    padding-inline-end: 10px;
+    border-radius: 250px 0px 0px 0px;
+}
+
+.title {
+    max-width: 7em;
+    margin-block-end: 25px;
+}
+
+.text {
+    max-width: 320px;
+    margin-block-end: 20px;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffffeb;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    stroke: #CDA274;
+    fill: #fff;
+}
+
+.callBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-block-end: 35px;
+}
+
+.phoneNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    color: #FFF;
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.4s;
+
+    &:hover {
+        color: #CDA274;
+    }
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item:last-child {
+    border-radius: 0 250px 0px 0px;
+}

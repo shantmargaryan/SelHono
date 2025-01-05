@@ -1,0 +1,36 @@
+.servicesArt {}
+
+.container {}
+
+.interior {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+    margin-block-end: 25px;
+}
+
+.list {
+    counter-reset: number;
+}
+
+
+.item {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-block-end: 10px;
+    }
+
+    &::before {
+        counter-increment: number;
+        content: "" counter(number);
+        margin-inline-end: 20px;
+        color: #CDA274;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

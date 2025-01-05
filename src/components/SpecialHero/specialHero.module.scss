@@ -1,0 +1,59 @@
+.specialHero {}
+
+.container {
+    min-height: 600px;
+    padding-block-start: 50px;
+    padding-inline-start: 30px;
+    margin-block-end: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 0px;
+}
+
+.title {
+    max-width: 11em;
+    margin-block-end: 13px;
+}
+
+.text {
+    max-width: 430px;
+    margin-block-end: 25px;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 45px;
+    border-radius: 18px;
+    background-color: #CDA274;
+    color: #FFF;
+    font-family: "Inter";
+    font-weight: 400;
+    box-shadow: 0px 10px 20px 0px #1F2022;
+    transition: background-color 0.4s;
+
+    &:hover {
+        background-color: #ae7639;
+    }
+
+    &:hover .icon {
+        transform: translateX(5px);
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 15px;
+    stroke: #fff;
+    fill: transparent;
+    transition: transform 0.4s;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}

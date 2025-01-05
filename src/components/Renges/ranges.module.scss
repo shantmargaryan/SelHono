@@ -1,0 +1,39 @@
+.track {
+
+    &:not(:last-child) {
+        margin-block-end: 20px;
+    }
+}
+
+.thumb {
+    display: grid;
+    place-items: center;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+}
+
+.count {
+    transform: translate(-5px, -25px);
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.position {
+    display: block;
+    margin-block-end: 30px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 500;
+}
