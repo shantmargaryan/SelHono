@@ -5,7 +5,7 @@ import useSWR from "swr"
 
 function SpecialHeroItem() {
 
-    const { data } = useSWR(`${import.meta.env.vite_api_url}/specialHeroItem?_page=1&_limit=3`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/specialHeroItem?_page=1&_limit=3`, fetcher)
 
     return (
         <ul className={styles.list + " list-reset"}>

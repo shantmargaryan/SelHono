@@ -5,7 +5,7 @@ import useSWR from "swr"
 
 function News() {
 
-    const { data, error, isLoading } = useSWR(`${import.meta.env.vite_api_url}/news`, fetcher)
+    const { data, error, isLoading } = useSWR(`${import.meta.env.VITE_API_URL}/news`, fetcher)
     if (error) {
         return <div>Failed to load</div>
     }

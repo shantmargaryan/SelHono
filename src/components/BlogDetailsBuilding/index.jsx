@@ -8,8 +8,8 @@ import { fetcher } from '../../halpes/fetcher'
 import useSWR from 'swr'
 
 function blogDetailsBuilding({ id }) {
-  const { data } = useSWR(`${import.meta.env.vite_api_url}/blogItems/${id}`, fetcher)
-  const { data: blogDetailsPosts } = useSWR(`${import.meta.env.vite_api_url}/blogDetailsPosts`, fetcher)
+  const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogItems/${id}`, fetcher)
+  const { data: blogDetailsPosts } = useSWR(`${import.meta.env.VITE_API_URL}/blogDetailsPosts`, fetcher)
 
   return (
     <>

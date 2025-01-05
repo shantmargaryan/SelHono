@@ -6,10 +6,12 @@ import { fetcher } from "../../halpes/fetcher"
 
 function About() {
 
-    const { data, error, isLoading } = useSWR(`${import.meta.env.vite_api_url}/about`, fetcher)
+    const { data, error, isLoading } = useSWR(`${import.meta.env.VITE_API_URL}/about`, fetcher)
     if (error) {
         return <div>Failed to load</div>
     }
+
+    console.log(data)
 
     return (
         <section className={styles.about + " section"}>

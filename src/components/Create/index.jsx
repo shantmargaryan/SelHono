@@ -4,7 +4,7 @@ import useSWR from "swr"
 
 function Create() {
 
-    const { data, error } = useSWR(`${import.meta.env.vite_api_url}/createData`, fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/createData`, fetcher)
     if (error) {
         return <div>failed to load</div>
     }

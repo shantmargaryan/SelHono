@@ -8,7 +8,7 @@ import useSWR from "swr";
 
 
 function ProjectTabs({ id }) {
-    const { data } = useSWR(`${import.meta.env.vite_api_url}/project`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/project`, fetcher)
 
     return (
         <Tabs className={styles.tabs + " container"}>

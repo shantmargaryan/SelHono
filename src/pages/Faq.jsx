@@ -6,7 +6,7 @@ import useSWR from "swr"
 
 function Faq() {
 
-    const { data } = useSWR(`${import.meta.env.vite_api_url}/FAQ`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/FAQ`, fetcher)
 
     return (
         <>

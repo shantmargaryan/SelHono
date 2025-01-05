@@ -5,7 +5,7 @@ import useSWR from "swr"
 
 function ServicesWork() {
 
-    const { data } = useSWR(`${import.meta.env.vite_api_url}/servicesWork`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/servicesWork`, fetcher)
 
 
 

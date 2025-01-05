@@ -6,7 +6,7 @@ import useSWR from "swr"
 
 function ServicesModern() {
 
-    const { data } = useSWR(`${import.meta.env.vite_api_url}/servicesModern`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/servicesModern`, fetcher)
 
     return (
         <section className={styles.servicesModern + " section"}>

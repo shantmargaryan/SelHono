@@ -4,7 +4,7 @@ import useSWR from "swr"
 
 function ContactLinks() {
 
-  const { data } = useSWR(`${import.meta.env.vite_api_url}/contactLinks`, fetcher)
+  const { data } = useSWR(`${import.meta.env.VITE_API_URL}/contactLinks`, fetcher)
 
   return (
     <div className={styles.links}>

@@ -13,7 +13,7 @@ import { fetcher } from "../../halpes/fetcher"
 import useSWR from "swr"
 function ServicesAbout() {
 
-    const { data, error } = useSWR(`${import.meta.env.vite_api_url}/aboutUs`, fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/aboutUs`, fetcher)
 
     if (error) {
         return <div>Failed to load</div>

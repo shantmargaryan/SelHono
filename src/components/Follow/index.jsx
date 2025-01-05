@@ -7,7 +7,7 @@ import useSWR from "swr"
 
 function Follow() {
 
-    const { data, error } = useSWR(`${import.meta.env.vite_api_url}/follow`, fetcher)
+    const { data, error } = useSWR(`${import.meta.env.VITE_API_URL}/follow`, fetcher)
     if (error) {
         return <div>Failed to load</div>
     }

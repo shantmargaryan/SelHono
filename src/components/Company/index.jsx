@@ -4,7 +4,7 @@ import useSWR from "swr"
 
 function Company() {
 
-const { data: company } = useSWR("${import.meta.env.vite_api_url}/companyImg", fetcher)
+const { data: company } = useSWR("${import.meta.env.VITE_API_URL}/companyImg", fetcher)
 
     return (
         <ul className={styles.list + " list-reset container"}>
