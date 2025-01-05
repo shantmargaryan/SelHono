@@ -4,7 +4,7 @@ import BlogNews from "/src/components/BlogNews"
 import { fetcher } from "../halpes/fetcher"
 import useSWR from "swr"
 function Blog() {
-    const { data } = useSWR("http://localhost:3000/blog", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/blog`, fetcher)
 
     return (
         <>

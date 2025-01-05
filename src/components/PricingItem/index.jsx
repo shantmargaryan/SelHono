@@ -4,7 +4,7 @@ import useSWR from "swr"
 
 function PricingItem() {
 
-    const { data, error } = useSWR("http://localhost:3000/pricingItem", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.vite_api_url}/pricingItem`, fetcher)
     if (error)
         return
     <div>Failed to load</div>

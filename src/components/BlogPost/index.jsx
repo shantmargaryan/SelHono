@@ -6,7 +6,7 @@ import useSWR from 'swr'
 
 
 function BlogPost() {
-    const { data } = useSWR("http://localhost:3000/blogPost", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/blogPost`, fetcher)
 
     return (
         <section className={styles.blogPost + " section"}>

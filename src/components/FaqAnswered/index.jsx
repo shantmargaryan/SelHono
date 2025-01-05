@@ -9,7 +9,7 @@ import useSWR from "swr"
 
 function FaqAnswered() {
 
-    const { data } = useSWR("http://localhost:3000/FAQ", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/FAQ`, fetcher)
     const questionAnswered = data?.questionAnswered
 
 

@@ -8,7 +8,7 @@ import { useParams } from "react-router-dom"
 
 function BlogDetails() {
     const { id } = useParams()
-    const { data } = useSWR("http://localhost:3000/blogDetails", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/blogDetails`, fetcher)
 
     return (
         <>

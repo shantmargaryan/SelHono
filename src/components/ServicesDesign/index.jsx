@@ -9,7 +9,7 @@ import useSWR from "swr"
 
 function ServicesDesign() {
 
-    const { data } = useSWR("http://localhost:3000/servicesDesign", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/servicesDesign`, fetcher)
 
     return (
         <section className={styles.servicesDesign + " section"}>

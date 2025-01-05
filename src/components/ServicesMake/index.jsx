@@ -3,7 +3,7 @@ import { fetcher } from "../../halpes/fetcher"
 import useSWR from "swr"
 function index() {
 
-    const { data } = useSWR("http://localhost:3000/servicesInterior", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/servicesInterior`, fetcher)
 
     return (
         <section className={styles.servicesArt + " section"}>

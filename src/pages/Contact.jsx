@@ -4,7 +4,7 @@ import { fetcher } from "../halpes/fetcher"
 import useSWR from "swr"
 function Contact() {
 
-    const { data } = useSWR("http://localhost:3000/contact", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/contact`, fetcher)
 
     return (
         <>

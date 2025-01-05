@@ -6,7 +6,7 @@ import { fetcher } from "../../halpes/fetcher"
 
 function About() {
 
-    const { data, error, isLoading } = useSWR("http://localhost:3000/about", fetcher)
+    const { data, error, isLoading } = useSWR(`${import.meta.env.vite_api_url}/about`, fetcher)
     if (error) {
         return <div>Failed to load</div>
     }

@@ -5,8 +5,8 @@ import useSWR from "swr"
 import { useParams } from "react-router-dom"
 function ProjectDetails() {
     const { title, id } = useParams()
-    const { data } = useSWR("http://localhost:3000/projectDetails", fetcher)
-    const { data: projectInfo } = useSWR(`http://localhost:3000/project`, fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/projectDetails`, fetcher)
+    const { data: projectInfo } = useSWR(`${import.meta.env.vite_api_url}/project`, fetcher)
 
 
     return (

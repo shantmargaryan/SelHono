@@ -13,7 +13,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 function Header() {
 
-    const { data } = useSWR("http://localhost:3000/header", fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/header`, fetcher)
 
     useEffect(() => {
         new Burger("header", {

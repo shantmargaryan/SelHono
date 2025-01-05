@@ -8,7 +8,7 @@ import { links, projects } from "./links"
 
 function Footer() {
 
-    const { data } = useSWR("http://localhost:3000/footer", fetcher)
+    const { data } = useSWR("${import.meta.env.vite_api_url}/footer", fetcher)
 
     return (
         <footer className={styles.footer}>

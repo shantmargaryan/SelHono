@@ -6,7 +6,7 @@ import AboutWorkItem from "../aboutWorkItem";
 
 
 function AboutWork() {
-    const { data } = useSWR("http://localhost:3000/aboutUsItems", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/aboutUsItems`, fetcher)
 
     return (
         <section className={styles.aboutWork + " section"}>

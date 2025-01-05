@@ -6,7 +6,7 @@ import useSWR from "swr"
 
 function join() {
 
-    const { data, error } = useSWR("http://localhost:3000/join", fetcher)
+    const { data, error } = useSWR(`${import.meta.env.vite_api_url}/join`, fetcher)
     if (error) {
         return <div>Failed to load</div>
     }

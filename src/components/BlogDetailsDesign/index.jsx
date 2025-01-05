@@ -5,7 +5,7 @@ import { LazyLoadImage as Image } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 function BlogDetailsDesign() {
 
-    const { data } = useSWR("http://localhost:3000/blogDetailDesign", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/blogDetailDesign`, fetcher)
 
     return (
         <section className={styles.blogDetailsDesign + " section"}>

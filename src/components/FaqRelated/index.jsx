@@ -6,7 +6,7 @@ import { fetcher } from "../../halpes/fetcher"
 import useSWR from "swr"
 function FaqReated() {
 
-    const { data } = useSWR("http://localhost:3000/FAQ", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/FAQ`, fetcher)
     const faqInfo = data?.projectRelated
     return (
         <section className={styles.faqRelated + " section"}>

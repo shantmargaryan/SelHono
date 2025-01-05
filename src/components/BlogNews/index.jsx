@@ -6,7 +6,7 @@ import { fetcher } from '../../halpes/fetcher'
 import useSWR from 'swr';
 
 function BlogNews() {
-    const { data } = useSWR("http://localhost:3000/blogItems", fetcher)
+    const { data } = useSWR(`${import.meta.env.vite_api_url}/blogItems`, fetcher)
 
     return (
         <section className={styles.blogNews + " section"}>

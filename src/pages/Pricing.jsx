@@ -7,7 +7,7 @@ import useSWR from "swr"
 function Pricing() {
 
 
-    const { data: pricing } = useSWR("http://localhost:3000/pricing", fetcher)
+    const { data: pricing } = useSWR(`${import.meta.env.vite_api_url}/pricing`, fetcher)
 
 
     return (
