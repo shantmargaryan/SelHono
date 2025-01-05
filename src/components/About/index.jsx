@@ -11,8 +11,6 @@ function About() {
         return <div>Failed to load</div>
     }
 
-    console.log(data)
-
     return (
         <section className={styles.about + " section"}>
             <div className={styles.container + " container"}>
