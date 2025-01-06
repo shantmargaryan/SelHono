@@ -11,7 +11,7 @@ function SpecialHero() {
     }
     if (isLoading) {
         return <div>Loading...</div>
-    }    
+    }
 
 
 

@@ -473,29 +473,32 @@
         "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.Lorem Ipsum is not simply random text. It has roots in a piece of classica.",
         "date": "22 December,2022"
     },
-    "blogItems": [
-        {
-            "id": "1",
-            "imgUrl": "/img/ArticlesImg1.jpg",
-            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
-            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
-            "date": "22 December,2022"
-        },
-        {
-            "id": "2",
-            "imgUrl": "/img/ArticlesImg2.jpg",
-            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
-            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
-            "date": "22 December,2022"
-        },
-        {
-            "id": "3",
-            "imgUrl": "/img/ArticlesImg3.jpg",
-            "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
-            "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
-            "date": "22 December,2022"
-        }
-    ],
+    "blogNews": {
+        "title": "Latest News",
+        "blogItems": [
+            {
+                "id": "1",
+                "imgUrl": "/img/ArticlesImg1.jpg",
+                "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+                "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+                "date": "22 December,2022"
+            },
+            {
+                "id": "2",
+                "imgUrl": "/img/ArticlesImg2.jpg",
+                "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+                "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+                "date": "22 December,2022"
+            },
+            {
+                "id": "3",
+                "imgUrl": "/img/ArticlesImg3.jpg",
+                "smallTitle": "Low Cost Latest Invented Interior Designing Ideas",
+                "text": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which don't look even slightly believable.",
+                "date": "22 December,2022"
+            }
+        ]
+    },
     "blogDetails": {
         "background": "/img/BlogDetailsBg.jpg",
         "title": "Blog Details"

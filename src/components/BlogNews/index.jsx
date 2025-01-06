@@ -6,7 +6,7 @@ import { fetcher } from '../../halpes/fetcher'
 import useSWR from 'swr';
 
 function BlogNews() {
-    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogItems`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogNews`, fetcher)
 
     return (
         <section className={styles.blogNews + " section"}>
@@ -16,7 +16,7 @@ function BlogNews() {
                 </h3>
                 <ul className={styles.list + " list-reset"}>
                     {
-                        data?.map(item => (
+                        data?.blogItems?.map(item => (
                             <li className={styles.item} key={item.id}>
                                 <Link to={`/BlogDetails/${item?.id}`}>
                                     <LazyLoadImage className={styles.img + " img"}
@@ -38,7 +38,7 @@ function BlogNews() {
                                     <span className={styles.date}>
                                         {item?.date}
                                     </span>
-                                    <Link to={`/BlogDetails`} className={styles.link + " link-reset"}>
+                                    <Link to={`/BlogDetails/${item?.id}`} className={styles.link + " link-reset"}>
                                         <svg className={styles.icon}>
                                             <use xlinkHref="/img/svg/sprite.svg#smallArrow" />
                                         </svg>

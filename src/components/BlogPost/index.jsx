@@ -5,8 +5,10 @@ import { fetcher } from '../../halpes/fetcher'
 import useSWR from 'swr'
 
 
-function BlogPost() {
+function BlogPost({ id }) {
     const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogPost`, fetcher)
+
+
 
     return (
         <section className={styles.blogPost + " section"}>
@@ -38,11 +40,6 @@ function BlogPost() {
                             <span className={styles.date}>
                                 {data?.date}
                             </span>
-                            <Link to={"/BlogDetail"} className={styles.Link + " link-reset"}>
-                                <svg className={styles.icon}>
-                                    <use xlinkHref="/img/svg/sprite.svg#smallArrow" />
-                                </svg>
-                            </Link>
                         </div>
                     </div>
                 </div>
