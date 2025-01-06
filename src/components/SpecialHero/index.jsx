@@ -1,5 +1,4 @@
 import styles from "./specialHero.module.scss"
-import SpecialHeroItem from "/src/components/SpecialHeroItem"
 import TextType from "./textType"
 import { fetcher } from "../../halpes/fetcher"
 import useSWR from "swr"
@@ -34,7 +33,6 @@ function SpecialHero() {
                     </svg>
                 </a>
             </div>
-            <SpecialHeroItem />
         </section >
     )
 }

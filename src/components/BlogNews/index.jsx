@@ -6,17 +6,17 @@ import { fetcher } from '../../halpes/fetcher'
 import useSWR from 'swr';
 
 function BlogNews() {
-    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogNews`, fetcher)
+    const { data } = useSWR(`${import.meta.env.VITE_API_URL}/blogItems`, fetcher)
 
     return (
         <section className={styles.blogNews + " section"}>
             <div className={styles.container + " container"}>
                 <h3 className={styles.title + " blackTitle"}>
-                    {data?.title}
+                    Articles & News
                 </h3>
                 <ul className={styles.list + " list-reset"}>
                     {
-                        data?.blogItems?.map(item => (
+                        data?.map(item => (
                             <li className={styles.item} key={item.id}>
                                 <Link to={`/BlogDetails/${item?.id}`}>
                                     <LazyLoadImage className={styles.img + " img"}

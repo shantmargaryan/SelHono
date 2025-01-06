@@ -1,5 +1,4 @@
 import Hero from "/src/components/Hero"
-import SpecialHeroItem from "/src/components/SpecialHeroItem"
 import ServicesWork from "/src/components/ServicesWork"
 import Join from "/src/components/Join"
 import { fetcher } from "../halpes/fetcher"
@@ -13,7 +12,6 @@ function Services() {
         <>
             <Hero background={data?.background}
                 title={data?.title} />
-            <SpecialHeroItem />
             <ServicesWork />
             <Join />
         </>
